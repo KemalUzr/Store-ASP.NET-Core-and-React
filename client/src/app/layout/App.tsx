@@ -1,5 +1,4 @@
 import './styles.css'
-import Catalog from '../../features/catalog/Catalog';
 import { Container, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import Header from './header';
 import { useState } from 'react';
