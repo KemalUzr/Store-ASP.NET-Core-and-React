@@ -3,6 +3,7 @@ import Catalog from '../../features/catalog/Catalog';
 import { Container, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import Header from './header';
 import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   const[darkMode, setDarkMode] = useState(false);
@@ -16,13 +17,13 @@ function App() {
   function handleThemeChange(){
     setDarkMode(!darkMode);
   }
-  
+  //outlet is getting swapped by component that is being loaded
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline/>
       <Header darkMode={darkMode} themeChange={handleThemeChange}/> 
       <Container>
-        <Catalog/>  
+        <Outlet />   
       </Container>
     </ThemeProvider>
   )

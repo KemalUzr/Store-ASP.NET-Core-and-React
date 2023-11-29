@@ -1,4 +1,3 @@
-import { DarkMode } from "@mui/icons-material";
 import { AppBar, Switch, ToggleButton, ToggleButtonGroup, Toolbar, Typography } from "@mui/material";
 
 interface Props {
