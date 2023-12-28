@@ -2,6 +2,8 @@
 
 Welcome to the repository for my personal project, a WebShop built with ASP.NET Core as the back end and React as the front end. This project is designed to provide a seamless shopping experience, utilizing SQLite as the database to store products. Users can search for products and apply filters such as alphabetical order, ascending and descending prices.
 
+![alt text](https://github.com/KemalUzr/Store-ASP.NET-Core-and-React/blob/main/client/public/images/ss.png)
+
 ## Project Overview
 
 The WebShop project integrates the following key features:
